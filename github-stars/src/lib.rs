@@ -24,6 +24,6 @@ mod tests {
     #[test]
     fn test_sanitize_success() {
         let res_empty = sanitize_input(String::from("hello  "));
-        assert_eq!(res_empty.unwrap(), "hello");
+        assert_eq!(res_empty., "hello");
     }
 }
